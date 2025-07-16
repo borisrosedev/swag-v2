@@ -1,0 +1,15 @@
+{
+  "name": "swag-v2",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "format:write": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
